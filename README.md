@@ -46,3 +46,10 @@ Following commands
 
 1. npx create-next-app@latest jotion-cwa
 2. npx shadcn-ui@latest init
+3. npx shadcn-ui@latest add button
+
+rm -rf .next
+
+// Things we learned
+
+To make page non routeable, we can use \_app.tsx
