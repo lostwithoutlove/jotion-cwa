@@ -47,6 +47,8 @@ Following commands
 1. npx create-next-app@latest jotion-cwa
 2. npx shadcn-ui@latest init
 3. npx shadcn-ui@latest add button
+4. npm install next-themes
+5. npx shadcn-ui@latest add dropdown-menu
 
 rm -rf .next
 
