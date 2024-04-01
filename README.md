@@ -49,6 +49,9 @@ Following commands
 3. npx shadcn-ui@latest add button
 4. npm install next-themes
 5. npx shadcn-ui@latest add dropdown-menu
+6. npm install convex
+7. npx convex dev
+8. npm install @clerk/clerk-react
 
 rm -rf .next
 
