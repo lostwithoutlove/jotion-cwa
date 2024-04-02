@@ -52,6 +52,7 @@ Following commands
 6. npm install convex
 7. npx convex dev
 8. npm install @clerk/clerk-react
+9. npm i usehooks-ts
 
 rm -rf .next
 
