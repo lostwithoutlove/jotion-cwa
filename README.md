@@ -55,6 +55,7 @@ Following commands
 9. npm i usehooks-ts
 10. npx shadcn-ui@latest add avatar
 11. npm i sonner
+12. npx shadcn-ui@latest add skeleton
 
 rm -rf .next
 
