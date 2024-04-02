@@ -53,6 +53,7 @@ Following commands
 7. npx convex dev
 8. npm install @clerk/clerk-react
 9. npm i usehooks-ts
+10. npx shadcn-ui@latest add avatar
 
 rm -rf .next
 

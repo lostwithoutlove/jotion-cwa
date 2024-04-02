@@ -13,6 +13,7 @@ import { usePathname } from "next/navigation";
 import { ElementRef, useEffect, useRef, useState } from "react";
 import { useMediaQuery } from "usehooks-ts";
 import { cn } from "@/lib/utils";
+import { UserItem } from "./user-item";
 
 export const Navigation = () => {
   const pathname = usePathname();
@@ -23,6 +24,20 @@ export const Navigation = () => {
   const navbarRef = useRef<ElementRef<"div">>(null);
   const [isResetting, setIsResetting] = useState(false);
   const [isCollapsed, setIsCollapsed] = useState(isMobile);
+
+  useEffect(() => {
+    if (isMobile) {
+      collapse();
+    } else {
+      resetWidth();
+    }
+  }, [isMobile]);
+
+  useEffect(() => {
+    if (isMobile) {
+      collapse();
+    }
+  }, [pathname, isMobile]);
 
   /*Functions :
   1. handleMouseDown
@@ -113,8 +128,8 @@ export const Navigation = () => {
         >
           <ChevronsLeft className="h-6 w-6" />
         </div>
-        <p>Navigation ! </p>
         <div>
+          <UserItem />
           <p>Action Items</p>
         </div>
         <div>
@@ -137,8 +152,9 @@ export const Navigation = () => {
         <nav className="bg-transparent px-3 py-2 w-full">
           {isCollapsed && (
             <MenuIcon
+              onClick={resetWidth}
               role="button"
-              className="h-60 w-60 text-muted-foreground"
+              className="h-6 w-6 text-muted-foreground"
             />
           )}
         </nav>
