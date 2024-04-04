@@ -66,6 +66,7 @@ Following commands
 20. npm i react-textarea-autosize
 21. npm install @edgestore/server @edgestore/react zod
 22. npm install tailwind-merge react-dropzone lucide-react
+23. npm i @blocknote/react @blocknote/core
 
 rm -rf .next
 
