@@ -63,7 +63,9 @@ Following commands
 17. npx shadcn-ui@latest add command
 18. npx shadcn-ui@latest add label
 19. npm i emoji-picker-react
-20.
+20. npm i react-textarea-autosize
+21. npm install @edgestore/server @edgestore/react zod
+22. npm install tailwind-merge react-dropzone lucide-react
 
 rm -rf .next
 

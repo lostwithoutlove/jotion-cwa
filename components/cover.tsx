@@ -8,10 +8,10 @@ import { useParams } from "next/navigation";
 import { Skeleton } from "@/components/ui/skeleton";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
-//import { useCoverImage } from "@/hooks/use-cover-image";
+import { useCoverImage } from "@/hooks/use-cover-image";
 import { api } from "@/convex/_generated/api";
 import { Id } from "@/convex/_generated/dataModel";
-//import { useEdgeStore } from "@/lib/edgestore";
+import { useEdgeStore } from "@/lib/edgestore";
 
 interface CoverImageProps {
   url?: string;
@@ -19,9 +19,9 @@ interface CoverImageProps {
 }
 
 export const Cover = ({ url, preview }: CoverImageProps) => {
-  // const { edgestore } = useEdgeStore();
+  const { edgestore } = useEdgeStore();
   const params = useParams();
-  //const coverImage = useCoverImage();
+  const coverImage = useCoverImage();
   const removeCoverImage = useMutation(api.documents.removeCoverImage);
 
   /*const onRemove = async () => {
