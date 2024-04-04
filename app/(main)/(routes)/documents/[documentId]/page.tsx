@@ -1,7 +1,5 @@
 const DocumentIdPage = () => {
-  return (
-    <div>
-      <p>Document Id Page</p>
-    </div>
-  );
+  return <div>page</div>;
 };
+
+export default DocumentIdPage;

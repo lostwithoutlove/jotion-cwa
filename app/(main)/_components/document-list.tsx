@@ -34,6 +34,10 @@ export const DocumentList = ({
     parentDocument: parentDocumentId,
   });
 
+  const onRedirect = (documentId: string) => {
+    router.push(`/documents/${documentId}`);
+  };
+
   if (documents === undefined) {
     return (
       <>
@@ -66,7 +70,7 @@ export const DocumentList = ({
         <div>
           <Item
             id={document._id}
-            onClick={() => {}}
+            onClick={() => onRedirect(document._id)}
             label={document.title}
             icon={FileIcon}
             documentIcon={document.icon}
