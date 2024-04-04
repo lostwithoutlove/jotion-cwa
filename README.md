@@ -62,6 +62,8 @@ Following commands
 16. npm i zustand
 17. npx shadcn-ui@latest add command
 18. npx shadcn-ui@latest add label
+19. npm i emoji-picker-react
+20.
 
 rm -rf .next
 
