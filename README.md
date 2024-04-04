@@ -61,6 +61,7 @@ Following commands
 15. npx shadcn-ui@latest add alert-dialog
 16. npm i zustand
 17. npx shadcn-ui@latest add command
+18. npx shadcn-ui@latest add label
 
 rm -rf .next
 
