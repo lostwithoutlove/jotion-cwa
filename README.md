@@ -72,13 +72,13 @@ rm -rf .next
 
 
 //Frameworks used 
-Next.Js is the Framework 
-Convex for DB & Backend
-Clerk for Auth
-Shadcn for UI
-Sonner for pretty Toasts 
-Zustand for state management
-Edgestore for fileuploads
-Blocknote for text editor 
+1. Next.Js is the Framework 
+2. Convex for DB & Backend
+3. Clerk for Auth
+4. Shadcn for UI
+5. Sonner for pretty Toasts 
+6. Zustand for state management
+7. Edgestore for fileuploads
+8. Blocknote for text editor 
 
 
