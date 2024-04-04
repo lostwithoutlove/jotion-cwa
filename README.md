@@ -70,6 +70,15 @@ Following commands
 
 rm -rf .next
 
-// Things we learned
 
-To make page non routeable, we can use \_app.tsx
+//Frameworks used 
+Next.Js is the Framework 
+Convex for DB & Backend
+Clerk for Auth
+Shadcn for UI
+Sonner for pretty Toasts 
+Zustand for state management
+Edgestore for fileuploads
+Blocknote for text editor 
+
+
