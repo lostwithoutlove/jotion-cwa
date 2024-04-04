@@ -56,6 +56,9 @@ Following commands
 10. npx shadcn-ui@latest add avatar
 11. npm i sonner
 12. npx shadcn-ui@latest add skeleton
+13. npx shadcn-ui@latest add popover
+14. npx shadcn-ui@latest add input
+15. npx shadcn-ui@latest add alert-dialog
 
 rm -rf .next
 
